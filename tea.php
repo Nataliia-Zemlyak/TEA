@@ -32,7 +32,7 @@
                 }
                     echo ("<p>Насипано ".round ($sugarInOneCup)." ч.л. цукру</p>");
                     $teaInCup = (2/250) * $i;
-                    echo ("<p>Опускаємо чайний пакетик на ".round ($teaInCup) ." хв</p>");
+                    echo ("<p>Опускаємо чайний пакетик на $teaInCup хв</p>");
                     echo ("<p>Розмішуємо</p>");
 
 
