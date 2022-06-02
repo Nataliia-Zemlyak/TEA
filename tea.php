@@ -30,9 +30,9 @@
                 for ($i = 50; $water > 0 && $i <= 250; $i +=50, $water -= 50, $sugarOfCup += $sugarInOneCup) {
                     echo ("<p>Налито $i мл води</p>");
                 }
-                    echo ("<p>Насипано ".number_format ($sugarInOneCup, 1)." ч.л. цукру</p>");
+                    echo ("<p>Насипано ".round ($sugarInOneCup)." ч.л. цукру</p>");
                     $teaInCup = (2/250) * $i;
-                    echo ("<p>Опускаємо чайний пакетик на $teaInCup хв</p>");
+                    echo ("<p>Опускаємо чайний пакетик на ".round ($teaInCup) ." хв</p>");
                     echo ("<p>Розмішуємо</p>");
 
 

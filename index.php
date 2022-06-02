@@ -11,7 +11,7 @@
             <h2>Оберіть кількість води, мл</h2>
             <p>
             <input type="range" name="water" value="50" min="50" max="1000" step="50" oninput="this.nextElementSibling.value =this.value">
-            <input type="text" oninput="this.previousElementSibling.value =this.value">
+            <input type="text" oninput="this.previousElementSibling.value =this.value" value="50">
             </p>
 
             <h2>Оберіть кількість цукру</h2>
